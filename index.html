@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Page</title>
+    <title>Your Name - Academic Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,13 +24,22 @@
             font-size: 24px;
             margin-bottom: 10px;
         }
-        .bio {
-            font-size: 16px;
+        .title {
+            font-size: 18px;
             color: #555;
             margin-bottom: 20px;
         }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
         .contact {
             font-size: 18px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -38,12 +47,38 @@
     <div class="container">
         <div class="header">
             <div class="name">Your Name</div>
-            <div class="bio">PhD</div>
+            <div class="title">Assistant Professor of [Your Field]</div>
         </div>
-        <div class="contact">
+        
+        <!-- Research Interests -->
+        <div class="section">
+            <div class="section-title">Research Interests</div>
+            <p>[Your research interests here]</p>
+        </div>
+        
+        <!-- Publications -->
+        <div class="section">
+            <div class="section-title">Publications</div>
+            <ul>
+                <li>[Your publication title], Journal of [Journal Name], [Publication Year]</li>
+                <!-- Add more publications as needed -->
+            </ul>
+        </div>
+        
+        <!-- Contact Information -->
+        <div class="section">
+            <div class="section-title">Contact Information</div>
             <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+            <p>Office: [Office Location]</p>
+            <p>Phone: [Phone Number]</p>
+        </div>
+        
+        <!-- Links -->
+        <div class="section">
+            <div class="section-title">Links</div>
             <p>GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
-            <!-- Add more contact information or links as needed -->
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourusername/">yourusername</a></p>
+            <!-- Add more links as needed -->
         </div>
     </div>
 </body>
